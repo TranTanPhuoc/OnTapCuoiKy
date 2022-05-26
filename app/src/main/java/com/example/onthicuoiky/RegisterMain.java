@@ -62,6 +62,9 @@ public class RegisterMain extends AppCompatActivity {
                                 startActivity(intent);
                                 finishAffinity();
                             }
+                            else{
+                                Toast.makeText(RegisterMain.this, "Đăng ký thất bại", Toast.LENGTH_SHORT).show();
+                            }
                         }
                     });
                 }

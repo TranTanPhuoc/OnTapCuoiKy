@@ -91,7 +91,9 @@ public class ListMonHoc extends AppCompatActivity {
                     KhoaHoc khoaHoc = sn.getValue(KhoaHoc.class);
                     list.add(khoaHoc);
                 }
-
+                if(!list.isEmpty()){
+                    i = list.get(list.size()-1).getId() + 1;
+                }
                 loadDuLieu(list);
             }
             @Override
