@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "587241091880",
+    "firebase_url": "https://ontapfinal-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ontapfinal",
+    "storage_bucket": "ontapfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587241091880:android:e64c87840c00e92ca5161d",
+        "android_client_info": {
+          "package_name": "com.example.onthicuoiky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587241091880-kl4qkakcu959v46v6i0f2dpupva61rvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlnvf6r_jbpZ74W4E_t9sF6YCyCHbCdWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587241091880-kl4qkakcu959v46v6i0f2dpupva61rvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
