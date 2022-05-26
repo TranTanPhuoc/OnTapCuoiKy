@@ -1,9 +1,10 @@
 package com.example.onthicuoiky.database;
 
-import android.arch.persistence.room.Database;
-import android.arch.persistence.room.Room;
-import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
+
+import androidx.room.Database;
+import androidx.room.Room;
+import androidx.room.RoomDatabase;
 
 import com.example.onthicuoiky.dao.UserDao;
 import com.example.onthicuoiky.model.User;
@@ -22,7 +23,6 @@ public abstract class AppdataBase extends RoomDatabase {
             INSTANCE = Room.databaseBuilder(context.getApplicationContext(), AppdataBase.class, "users_database")
                     .allowMainThreadQueries().build();
         }
-
         return INSTANCE;
     }
 
