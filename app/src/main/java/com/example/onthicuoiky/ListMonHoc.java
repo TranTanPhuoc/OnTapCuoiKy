@@ -91,7 +91,7 @@ public class ListMonHoc extends AppCompatActivity {
                     KhoaHoc khoaHoc = sn.getValue(KhoaHoc.class);
                     list.add(khoaHoc);
                 }
-              
+
                 loadDuLieu(list);
             }
             @Override
