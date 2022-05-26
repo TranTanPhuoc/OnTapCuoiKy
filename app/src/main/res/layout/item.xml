@@ -28,7 +28,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/txtTenItem2"
+            android:id="@+id/txtGiaTien"
             android:layout_width="61dp"
             android:layout_height="68dp"
             android:gravity="center"
@@ -41,12 +41,12 @@
             app:layout_constraintVertical_bias="0.454" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imgRm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="@+id/txtTenItem2"
-            app:layout_constraintStart_toEndOf="@+id/txtTenItem2"
-            app:layout_constraintTop_toTopOf="@+id/txtTenItem2"
+            app:layout_constraintBottom_toBottomOf="@+id/txtGiaTien"
+            app:layout_constraintStart_toEndOf="@+id/txtGiaTien"
+            app:layout_constraintTop_toTopOf="@+id/txtGiaTien"
             app:srcCompat="@drawable/oi_circle_x"
             tools:ignore="SpeakableTextPresentCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
