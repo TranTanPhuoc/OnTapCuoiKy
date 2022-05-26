@@ -28,7 +28,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/txtGiaTien"
+            android:id="@+id/txtGiaTienItem"
             android:layout_width="61dp"
             android:layout_height="68dp"
             android:gravity="center"
@@ -44,9 +44,9 @@
             android:id="@+id/imgRm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="@+id/txtGiaTien"
-            app:layout_constraintStart_toEndOf="@+id/txtGiaTien"
-            app:layout_constraintTop_toTopOf="@+id/txtGiaTien"
+            app:layout_constraintBottom_toBottomOf="@+id/txtGiaTienItem"
+            app:layout_constraintStart_toEndOf="@+id/txtGiaTienItem"
+            app:layout_constraintTop_toTopOf="@+id/txtGiaTienItem"
             app:srcCompat="@drawable/oi_circle_x"
             tools:ignore="SpeakableTextPresentCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>

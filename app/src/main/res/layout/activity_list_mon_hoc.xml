@@ -49,7 +49,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/txtTenKhoaHoc2"
+        android:id="@+id/txtGiaTien"
         android:layout_width="271dp"
         android:layout_height="63dp"
         android:layout_marginStart="20dp"

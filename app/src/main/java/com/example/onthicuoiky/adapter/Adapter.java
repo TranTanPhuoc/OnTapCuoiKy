@@ -46,7 +46,7 @@ public class Adapter extends BaseAdapter {
         if(view == null) {
             view = LayoutInflater.from(viewGroup.getContext()).inflate(idLayout, viewGroup, false);
             TextView txtTenKhoaHoc = view.findViewById(R.id.txtTenItem);
-            TextView txtSoTien = view.findViewById(R.id.txtGiaTien);
+            TextView txtSoTien = view.findViewById(R.id.txtGiaTienItem);
             ImageButton imgDelete = view.findViewById(R.id.imgRm);
             KhoaHoc khoaHoc = list.get(position);
             txtTenKhoaHoc.setText(khoaHoc.getTenHoaHoc());
